@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <title>
+            BSEM
+        </title>
+        <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+         <link href="bhmraoambedkarji2.png" rel="shortcut icon"/>      
+               <style>
+                   @font-face{
+                       font-family:hindi;
+                       src: url(Ananda.ttf);
+                   }
+                   @font-face{
+                       font-family:head;
+                       src:url(meloche-bk.ttf);
+                   }
+                   .jai{
+                       font-family:hindi;
+                       font-size:250%;
+                       text-align:center;
+                   }
+.first{
+    display:block;
+    background-color:white;
+    background-color:rgb(255,255,255,0.8);
+    text-align:center;
+}
+
+
+.logo-name{
+    background-color:black;
+    font-size:250%;
+    text-align:center;
+    color:white;
+}
+.logo{
+    size:5%;
+}
+body{
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+}
+
+                   </style>
+    </head>
+    <body>
+    <div class="modal first" id="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" id="close">&times;</span>
+                  </button>
+                <div class="modal-body">
+                  <img src = "am.jpeg" style="width:100%;">
+                  <span class="jai">Jai Bhim</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="jumbotron logo-name">
+             &#x269C; BSEM &#x269C;
+          </div>
+          <ul class="nav nav-pills justify-content-center" style="margin-top:0;">
+                <li class="nav-item option">
+                  <a class="nav-link" href="index.html">Home &#127968;</a>
+                </li>
+                <li class="nav-item option">
+                  <a class="nav-link" href="about.html">About Us &#x270E;</a>
+                </li>
+                <li class="nav-item option">
+                  <a class="nav-link active" href="FAQ.html">FAQ &#x270D;</a>
+                </li>
+              </ul>   
+              
+           <footer class="jumbotron" style="background-color:black; color:white; text-align: center;">
+               <div class="body">
+                   <img src="fb.png" class="fb" style="width:8%;"/> <img src="gmail.png" class="gmail" style="width:8%;"/>
+               </div>
+               <div class="footer">
+                   &copy; YATHARTH & HARSH 
+               </div>
+           </footer>   
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <script>
+        var close = document.getElementById('close');
+        var modal = document.getElementById('modal');
+
+        close.onclick = function(){
+            modal.style.display="none";
+        }
+        </script>
+    </body>
+</html>
